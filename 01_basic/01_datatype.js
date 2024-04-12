@@ -7,7 +7,7 @@ let islogin=false
 
 
 //type of is used to know the datatype of the variable like
-console.lof(typeof"kohli" )
+console.log(typeof"kohli" )
 
 
 
