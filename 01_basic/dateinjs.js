@@ -18,6 +18,7 @@ console.log(Date.now())
 console.log(Math.floor(Date.now()/1000))
 console.log(typeof mycreatedate)
 console.log(mycreatedate.getMonth()+1)
+// math .random value alway come between 0 and 1
 
 
 
