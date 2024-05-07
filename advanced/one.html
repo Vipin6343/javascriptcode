@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>welcome to do advanced javascriptcode</h1>
+    
+</body>
+<script>
+    const requesturl='https://api.github.com/users/Vipin6343'
+    const xhr=new XMLHttpRequest();
+    xhr.open('GET',requesturl)
+    xhr.onreadystatechange=function(){
+        console.log(xhr.readyState);
+        if(xhr.ready===4){
+            const data= this.responseText
+            console.log(data.followers)
+        }
+    }
+    xhr.send();
+
+</script>
+</html>
